@@ -58,7 +58,9 @@ If there is an error, this message will print:
 Following the message, print two new lines and any text the implementing language prints.
  
 ==Using the Interpeter==
+
 ===Running===
+
 The official interpreter is written in Python3 and can take two inline arguments on the command line:
 *file name
 *debugger flag
@@ -83,6 +85,7 @@ Also note that when a program takes input a right angle bracket and space should
  >
  
 ===The Debugger===
+
 The debugger single steps through a program and prints information about the current step, including a section of the tape extending from five cells left of the current cell, to five cells right of the current cell.
 Output is printed before the debug information.
  
@@ -97,6 +100,7 @@ It will then skip a line and print this prompt:
  -Push Enter or Return to Continue-
  
 ===Help===
+
 If the interpreter is given the argument help instead of a filename, it will print a plain text compatible version of this document, followed by this prompt:
  
  -Push Enter or Return to Exit-
