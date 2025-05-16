@@ -21,6 +21,7 @@ The tape is circular so byte 65535 is adjacent to byte 0.
 There is also a stack for storing branches, and a program counter to track the current command in execution.
  
 ===Commands===
+
  0 - Set the tape pointer to 0.
  
  1 - Increment tape pointer.
@@ -99,5 +100,6 @@ It will then skip a line and print this prompt:
 If the interpreter is given the argument help instead of a filename, it will print a plain text compatible version of this document, followed by this prompt:
  
  -Push Enter or Return to Exit-
+ 
  ==End of Help Doc==
  
