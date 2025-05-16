@@ -12,7 +12,9 @@ Files are converted into a set of integers, one character at a time.
 Then, each integer is set to itself mod 10, and mapped to a command.
  
 ==Computation==
+
 ===Memory===
+
 Commands operate on a tape of bytes in the range of 0 to 255.
 A byte value will wrap around so as not to exceed range.
 Bytes are modified by a pointer that can operate on one byte at a time.
